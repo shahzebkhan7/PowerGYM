@@ -1,0 +1,691 @@
+@media (max-width: 1199px) {
+  .text_part h5 {
+    font-size: 40px;
+  }
+  .benefit h2 {
+    font-size: 40px;
+  }
+  .benefit {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .setmind h2 {
+    font-size: 40px;
+  }
+  .setmind h4 {
+    font-size: 40px;
+  }
+  .ourteam {
+    padding: 35px 0px;
+  }
+  .workout h4 {
+    font-size: 45px;
+  }
+  .ourteam h4 {
+    font-size: 45px;
+  }
+  .choose_us h2 {
+    font-size: 32px;
+    padding: 35px 0px;
+  }
+  .choose_us button {
+    font-size: 20px;
+  }
+
+  .list ul {
+    padding: 25px 0px;
+  }
+  .list li a {
+    /* font-size: 12px; */
+    margin-right: 27px;
+  }
+  .our_work_out {
+    padding-bottom: 25px;
+  }
+  .foot p {
+    font-size: 12px;
+  }
+  /* -----Registration------- */
+  .logo {
+    max-width: 60px;
+  }
+  .Registration_page h2 {
+    font-size: 35px;
+  }
+  /* -----Contact-Us--------- */
+  .contact_us h2 {
+    padding-bottom: 45px;
+    font-size: 35px;
+  }
+  .contact_form h2 {
+    font-size: 40px;
+  }
+  .map_here {
+    padding: 25px 0px;
+  }
+  .foters img {
+    max-width: 144px;
+    width: 100%;
+  }
+  /* ------Fitness-------- */
+  .logo {
+    max-width: 60px;
+    width: 100%;
+  }
+  .Fitness_page h2 {
+    font-size: 35px;
+  }
+  .Fitness_guide h4 {
+    font-size: 35px;
+    padding-bottom: 15px;
+  }
+  .Fitness_guide {
+    padding-top: 10px;
+  }
+  .Fitness_guide h2 {
+    padding-bottom: 15px;
+  }
+  .foters img {
+    max-width: 135px;
+    width: 100%;
+  }
+  .foters h1 {
+    font-size: 28px;
+    font-weight: 300;
+  }
+  .list ul {
+    padding: 15px 0px;
+  }
+  section.copy_right p {
+    font-size: 12px;
+  }
+  .foot {
+    padding-bottom: 5px;
+  }
+  .perform_exercise p {
+    padding-bottom: 15px;
+  }
+  /* ABOUT HTML    */
+  .about_grace_dean-2 {
+    max-width: 300px;
+  }
+  .about h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+  }
+  .About_hadding h2 {
+    padding: 25px;
+    font-size: 35px;
+  }
+  .about_team-2 {
+    padding-top: 15px;
+  }
+  .About_hadding button {
+    font-size: 12px;
+  }
+  .about_team-2 h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .about_ourteam {
+    padding: 18px 0px;
+  }
+  .about_ourteam h4 {
+    font-size: 35px;
+    padding-bottom: 15px;
+  }
+  .about_grace button {
+    font-size: 12px;
+  }
+  .foters img {
+    max-width: 130px;
+    width: 100%;
+  }
+  /* -----Deit Plan------------- */
+  .Deit_hadding h2 {
+    font-size: 35px;
+  }
+  .deit_image {
+    padding-top: 0px;
+  }
+  .deit_info button {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .Deit_hadding_2 h2 {
+    padding-top: 25px;
+    font-size: 35px;
+  }
+  .Deit_hadding_2 h3 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .Deit_hadding_post_food {
+    padding-top: 18px;
+  }
+  .foters {
+    background-color: #3e3039;
+    padding-top: 9px;
+    margin-top: 25px;
+  }
+  .foters h1 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+  .list ul {
+    padding: 12px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .setmind h2 {
+    font-size: 29px;
+  }
+  .heart1 {
+    padding-top: 23px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .setmind h4 {
+    font-size: 28px;
+    color: #73c6cd;
+    padding-bottom: 5px;
+    font-weight: 300;
+  }
+
+  .setmind p {
+    font-size: 18px;
+  }
+  .mary_text h4 {
+    font-size: 18px;
+  }
+  .mary_text p {
+    font-size: 16px;
+  }
+  .ourteam h4 {
+    font-size: 40px;
+  }
+  .mary_para p {
+    font-size: 14px;
+  }
+  .choose_us h2 {
+    font-size: 27px;
+  }
+  .choose_us button {
+    font-size: 15px;
+  }
+  .benefit h2 {
+    font-size: 35px;
+  }
+  .text_part h5 {
+    font-size: 35px;
+  }
+  .gym {
+    font-size: 18px;
+  }
+  .workout h4 {
+    font-size: 40px;
+  }
+  /* ----Registration-------- */
+  .Registration_page h2 {
+    font-size: 30px;
+  }
+  .foters img {
+    max-width: 140px;
+  }
+  .foters h1 {
+    font-size: 28px;
+  }
+  .list ul {
+    padding: 20px 0px;
+  }
+  /* ------contact-Us-------------- */
+  .contact_us h2 {
+    font-size: 32px;
+  }
+  .contact_form h2 {
+    font-size: 35px;
+  }
+  .contact_form button {
+    font-size: 13px;
+    padding: 10px 13px;
+  }
+  .map_here {
+    padding: 18px 0px;
+  }
+  .foters img {
+    max-width: 136px;
+  }
+  .foters h1 {
+    font-size: 25px;
+  }
+  .list ul {
+    padding: 11px 0px;
+  }
+  section.copy_right p {
+    font-size: 13px;
+  }
+  .foot {
+    padding-bottom: 2px;
+  }
+  /* ------Fitness----- */
+  .Fitness_guide {
+    padding-top: 10px;
+  }
+  .Fitness_page h2 {
+    font-size: 30px;
+  }
+  .Fitness_guide h4 {
+    font-size: 30px;
+  }
+  .Fitness_guide h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .perform_exercise p {
+    padding-bottom: 8px;
+    font-size: 14px;
+  }
+  .perform_exercise h3 {
+    font-size: 18px;
+  }
+  /* About----------- */
+  .about_grace_dean-2 {
+    max-width: 460px;
+    padding-bottom: 20px;
+  }
+  .about_grace_dean-2:nth-child(even) {
+    /* background-color: red; */
+    border-right: none;
+    border-left: none;
+  }
+  .about h2 {
+    font-size: 27px;
+    padding-bottom: 15px;
+  }
+  .About_hadding h2 {
+    padding: 10px;
+    font-size: 35px;
+  }
+  .about_image {
+    padding-top: 0px;
+  }
+  p {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  * {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  .About_hadding button {
+    font-size: 10px;
+  }
+  .about_ourteam h4 {
+    font-size: 30px;
+    padding-bottom: 14px;
+  }
+  .about_team {
+    margin-bottom: 20px;
+  }
+  /* -----Deit Plan--------- */
+  .Deit_hadding h2 {
+    font-size: 30px;
+  }
+  .Deit_hadding_2 h2 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .deit_info button {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .Deit_hadding_2 h3 {
+    font-size: 30px;
+    padding-bottom: 13px;
+    text-align: center;
+  }
+  .Deit_hadding h2 {
+    font-size: 25px;
+  }
+  .Deit_hadding h2 {
+    padding-top: 18px;
+  }
+  .Deit_hadding_post_food h3 {
+    color: #c9638e;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 15px;
+  }
+  .foters img {
+    max-width: 130px;
+  }
+  .foters h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .setmind h2 {
+    font-size: 19px;
+  }
+  .team {
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .ourteam {
+    padding: 10px 0px;
+  }
+  .ourteam h4 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .setmind h4 {
+    font-size: 19px;
+  }
+  .setmind p {
+    font-size: 14px;
+  }
+  .setmind h4 {
+    padding-bottom: 0px;
+  }
+  .choose_us h2 {
+    margin-bottom: -22px;
+    font-size: 26px;
+  }
+  .choose_us button {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+  .heart1 {
+    padding-top: 23px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mary_para p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .setmind h2 {
+    /* margin-right: -54px; */
+    padding-left: -41px;
+    padding-right: -5px;
+    font-size: 19px;
+    margin-bottom: 6px;
+  }
+  .pt-5 {
+    padding-top: 1rem !important;
+  }
+  .workout {
+    padding-top: 30px;
+  }
+  .workout h4 {
+    padding-bottom: 28px;
+  }
+  .text_part h5 {
+    font-size: 30px;
+  }
+  .benefit h2 {
+    font-size: 30px;
+  }
+  /* -------Registration--------- */
+  .foters h1 {
+    font-size: 25px;
+  }
+  .list ul {
+    padding: 18px 0px;
+  }
+  .foters img {
+    max-width: 130px;
+    padding-top: 15px;
+  }
+  .section.copy_right p {
+    font-size: 12px;
+  }
+  .logo {
+    max-width: 50px;
+  }
+  /* ------Contact_us------ */
+  .form1 input {
+    width: 500px !important;
+  }
+  .contact_form h2 {
+    font-size: 33px;
+  }
+  /* ----------fitness-------- */
+  .Fitness_guide h4 {
+    font-size: 28px;
+  }
+  .Fitness_page h2 {
+    font-size: 28px;
+  }
+  .Fitness_guide h2 {
+    font-size: 22px;
+  }
+  .foters img {
+    max-width: 115px;
+    padding-top: 15px;
+  }
+  .foters h1 {
+    font-size: 20px;
+  }
+  section.copy_right p {
+    font-size: 12px;
+  }
+  .list ul {
+    padding: 12px 0px;
+  }
+  /* ---About- */
+  .about_grace p {
+    padding: 0px 5px;
+  }
+  .about_grace button {
+    font-size: 10px;
+  }
+  .about_grace h2 {
+    font-size: 18px;
+  }
+  /* ---Deit Plane---------- */
+  .Deit_hadding h2 {
+    padding-bottom: 20px;
+    padding-top: 18px;
+  }
+  .Deit_hadding_2 h2 {
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  .Deit_hadding_2 h3 {
+    font-size: 25px;
+  }
+  .Deit_hadding h2 {
+    padding-bottom: 20px;
+    padding-top: 18px;
+  }
+  .Deit_hadding_post_food h3 {
+    font-size: 25px;
+  }
+  section.copy_right p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 524px) {
+  .text_part h5 {
+    font-size: 25px;
+  }
+  .list li a {
+    /* font-size: 12px; */
+    margin-right: 10px;
+  }
+  .list li {
+    list-style: none;
+  }
+  .benefit h2 {
+    font-size: 25px;
+  }
+  .gym {
+    font-size: 15px;
+  }
+  .heart1 h3 {
+    font-size: 22px;
+  }
+  .heart1 p {
+    font-size: 15px;
+  }
+  .choose_us h2 {
+    font-size: 22px;
+  }
+  .choose_us button {
+    font-size: 10px;
+  }
+  .workout h4 {
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+  .workout {
+    padding-top: 15px;
+  }
+  .our_work_out {
+    padding-bottom: 0px;
+  }
+  .our .ourteam h4 {
+    padding-bottom: 18px;
+  }
+
+  .ourteam h4 {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  .ourteam {
+    padding: 20px 0px;
+  }
+  .setmind p {
+    margin-right: 292px;
+  }
+  .setmind h4 {
+    margin-right: 58%;
+  }
+  .setmind h2 {
+    margin-right: 50%;
+  }
+  .setmind {
+    padding-top: 135px;
+    /* padding-bottom: 65px; */
+  }
+  .yoga_direct {
+    margin: 0 auto;
+  }
+  .mary_text h4 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .mary_text p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .mary_para p {
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .text_part h5 {
+    font-size: 18px;
+  }
+  /* ------Registration-------- */
+  .Registration_page h2 {
+    font-size: 24px;
+  }
+  .foters h1 {
+    font-size: 23px;
+  }
+  .foters img {
+    max-width: 120px;
+  }
+  .list ul {
+    padding: 15px 0px;
+  }
+  .whatsapp_float {
+    width: 80px;
+  }
+  /* --------Contact-Us------- */
+  .form1 input {
+    width: 300px !important;
+  }
+  .contact_form h2 {
+    text-align: center;
+    font-size: 33px;
+  }
+  .contact_us h2 {
+    padding-top: 160px;
+  }
+  section.copy_right p {
+    font-size: 12px;
+  }
+  .foters img {
+    max-width: 110px;
+  }
+  .foters h1 {
+    font-size: 20px;
+  }
+  .contact_form button {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+  /* ------fitness------ */
+  .Fitness_page h2 {
+    padding-bottom: 15px;
+    font-size: 22px;
+  }
+  .Fitness_guide h4 {
+    font-size: 22px;
+  }
+  .Fitness_guide h2 {
+    font-size: 18px;
+  }
+  .perform_exercise h3 {
+    font-size: 16px;
+  }
+  section.copy_right p {
+    font-size: 10px;
+  }
+  /* --About---- */
+  .about h2 {
+    font-size: 20px;
+    padding-bottom: 14px;
+  }
+  .About_hadding h2 {
+    padding: 10px;
+    font-size: 25px;
+  }
+  .About_hadding button {
+    font-size: 8px;
+  }
+  .about_team-2 h2 {
+    font-size: 26px;
+    padding-bottom: 1px;
+  }
+  .about_grace_dean img {
+    max-width: 186px;
+  }
+  .about_ourteam h4 {
+    font-size: 28px;
+    padding-bottom: 18px;
+  }
+  .about_grace h2 {
+    font-size: 16px;
+  }
+}
+@media(max-width:371px){
+  .setmind h2 {
+    /* margin-right: -4px; */
+    padding-right: 34px;
+}
+.setmind h4 {
+  margin-right: 71%;
+}
+}
+

@@ -1,0 +1,841 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background-color: #ebecf2;
+}
+/* .whatsapp_float { */
+/* position: fixed; */
+/* bottom: 40px; */
+/* right: 20px; */
+/* left: 80%; */
+/* } */
+/* . */
+/* ------------------------------------------------ */
+.form1 input {
+  width: 300px !important;
+}
+.nav-item a {
+  font-size: 15px;
+  margin-left: 25px;
+  color: #c9638e;
+  border-bottom: black;
+  font-weight: 400;
+}
+.nav-item a:hover {
+  color: aqua;
+}
+.logo {
+  max-width: 70px;
+  width: 100%;
+  /* filter: invert(); */
+}
+/* .carousel-item{
+height: 500px;
+} */
+.text_part {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.text_part h5 {
+  color: black;
+  font-size: 50px;
+  font-weight: 300;
+}
+.benefit h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #c9638e;
+  /* padding-top: 30px; */
+  font-weight: 300;
+}
+.gym {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+  font-weight: 300;
+}
+.benefit {
+  padding-top: 60px;
+}
+.benefit img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+.image_girl p {
+  color: black;
+  font-size: 20px;
+  max-width: 1100px;
+  margin: auto;
+  font-weight: 300;
+}
+.heart1 {
+  text-align: end;
+  max-width: 360px;
+  width: 100%;
+  padding-top: 50px;
+}
+.icon i {
+  margin-left: 25px;
+  font-size: 25px;
+  color: burlywood;
+}
+.heart1 h3 {
+  font-size: 25px;
+  color: #c9638e;
+  font-weight: 300;
+}
+.heart1 p {
+  padding-top: 10px;
+  font-size: 17px;
+  color: black;
+  font-weight: 300;
+}
+.choose_us {
+  background-color: #73c6cd;
+}
+.nn {
+  text-align: start;
+}
+.choose_us h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+  padding: 40px 0px;
+}
+.choose_us button {
+  font-size: 20px;
+  color: white;
+  background-color: #73c6cd;
+  padding: 5px 30px;
+  border: 2px solid white;
+  border-radius: 15px;
+  transition: 0.5s ease-in;
+}
+.choose_us button:hover {
+  color: #c9638e;
+  border-color: #c9638e;
+  background-color: white;
+}
+.our_work_out {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.our_work_out h2 {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #c9638e;
+  font-weight: 300;
+}
+.workout {
+  padding-top: 50px;
+}
+.workout h4 {
+  text-align: center;
+  font-size: 50px;
+  color: #c9638e;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+.our_work_out p {
+  padding-top: 5px;
+  font-size: 15px;
+  color: black;
+  font-weight: 300;
+}
+.mind {
+  background-image: url(../images/yoga_girl2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.setmind h2 {
+  font-size: 60px;
+  color: #c9638e;
+  font-weight: 300;
+}
+.setmind {
+  text-align: end;
+  padding-top: 200px;
+  /* padding-bottom: 65px; */
+}
+.setmind h4 {
+  font-size: 50px;
+  color: #73c6cd;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+.setmind p {
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+.Mary_sheldan {
+  background-color: #62aed6;
+  padding: 60px 0px;
+}
+
+.mary_text h4 {
+  color: #ebecf2;
+  font-weight: 200;
+}
+.mary_text p {
+  color: #ebecf2;
+  font-weight: 150;
+}
+.mary_para p {
+  color: #ebecf2;
+  font-size: 14px;
+}
+.borders {
+  border: 1px solid white;
+}
+.borders {
+  border: 1px solid white;
+  padding: 30px 70px;
+}
+.yoga_direct {
+  max-width: 200px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+.yoga_direct img {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+}
+.yoga_direct img:hover {
+  scale: 1.2;
+  transition: 0.4 ease-in;
+}
+/* New-Section  */
+
+.ourteam {
+  padding: 50px 0px;
+}
+.ourteam h4 {
+  text-align: center;
+  font-size: 50px;
+  color: #c9638e;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+
+.grace_dean {
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  /* cursor: pointer; */
+  margin: 0 auto;
+}
+.grace_dean img {
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+}
+
+.grace_dean img:hover {
+  scale: 1.2;
+  transition: 0.4 ease-in;
+}
+.grace h2 {
+  padding-top: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+.grace p {
+  /* padding-top: 1px; */
+  font-size: 15px;
+  color: #c9638e;
+  font-weight: 150;
+  text-align: center;
+}
+.team {
+  max-width: 250px;
+  width: 100%;
+  border: 2px solid white;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+}
+.grace p:last-child {
+  font-size: 15px;
+  color: black;
+  font-weight: 150;
+  text-align: center;
+}
+.foters img {
+  filter: invert(1);
+  max-width: 150px;
+  width: 100%;
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.foters {
+  background-color: #3e3039;
+  padding-top: 10px;
+  /* margin-top: 30px;     */
+}
+.foters h1 {
+  padding-top: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+}
+.list ul {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.list li {
+  color: #eebb73;
+}
+.list li a {
+  font-size: 12px;
+  margin-right: 25px;
+  text-decoration: none;
+  display: block;
+  color: #b2acac;
+  font-weight: 700;
+}
+.list li a:hover {
+  color: #eebb73;
+}
+.foot {
+  font-weight: 700;
+  padding-bottom: 25px;
+  text-align: center;
+  /* padding-top: 15px; */
+}
+
+.foot i {
+  font-size: 25px;
+  margin-left: 25px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.foot i:hover {
+  color: #eebb73;
+}
+
+.foot a {
+  text-decoration: none;
+  /* display: inline-block; */
+}
+.foot p {
+  color: white;
+  line-height: normal;
+}
+.foot p a {
+  color: #fff;
+}
+/* .foot p{
+  color: #eebb73;
+} */
+
+/* ============================================================ABOUT======================================================================= */
+.about {
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about h2 {
+  padding-top: 220px;
+  padding-bottom: 52px;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+.about_image {
+  padding-top: 60px;
+}
+.About_hadding h2 {
+  color: #c9638e;
+  padding: 30px;
+  font-size: 50px;
+  font-weight: 300;
+}
+.About_hadding p {
+  color: #878ab1;
+}
+.About_hadding ul li {
+  color: #878ab1;
+}
+.About_hadding button {
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #ebecf2;
+  color: black;
+  transition: 0.8s;
+  padding: 10px 20px;
+}
+.About_hadding button:hover {
+  background-color: palevioletred;
+  color: white;
+  border-color: palevioletred;
+}
+section.copy_right p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  padding: 5px 5px;
+}
+/* ----------------- */
+.about_ourteam {
+  padding: 60px 0px;
+}
+.about_ourteam h4 {
+  text-align: center;
+  font-size: 50px;
+  color: #c9638e;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+.about_grace_dean {
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  /* cursor: pointer; */
+  margin: 0 auto;
+}
+.about_grace_dean img {
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+}
+
+.about_grace_dean img:hover {
+  scale: 1.2;
+  transition: 0.4 ease-in;
+}
+.about_grace h2 {
+  padding-top: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+.about_grace p {
+  /* padding-top: 1px; */
+  font-size: 15px;
+  color: #c9638e;
+  font-weight: 150;
+  text-align: center;
+}
+.about_team {
+  border: 2px solid white;
+  padding: 30px 0px;
+}
+.about_grace p:last-child {
+  font-size: 15px;
+  color: black;
+  font-weight: 150;
+  text-align: center;
+}
+.about_grace button {
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #ebecf2;
+  color: black;
+  transition: 0.8s;
+  padding: 9px 14px;
+}
+.about_grace button:hover {
+  background-color: palevioletred;
+  color: white;
+  border-color: palevioletred;
+}
+.about_team-2 {
+  padding-top: 70px;
+}
+.about_team-2 h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #c9638e;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.about_grace_dean-2 img {
+  max-width: 200px;
+  /* height: 100%; */
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about_team-2 h3 {
+  padding-top: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 100;
+}
+.about_team-2 h5 {
+  font-size: 15px;
+  color: #c9638e;
+  font-weight: 150;
+}
+.about_grace_dean-2 p {
+  max-width: 360px;
+  width: 100%;
+  font-size: 13px;
+  color: #878ab1;
+}
+.about_grace_dean-2 {
+  /* text-align: justify; */
+  max-width: 400px;
+  width: 100%;
+  padding: 0px 35px;
+}
+.about_team_new {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.about_grace_dean-2:nth-child(even) {
+  /* background-color: red; */
+  border-right: 1px solid #878ab1;
+  border-left: 1px solid #878ab1;
+}
+
+/* -------------Contact-us----------------- */
+.contact_us {
+  background-image: url(../images/Bacck-Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact_us h2 {
+  padding-top: 220px;
+  padding-bottom: 52px;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+.contact_form h2 {
+  color: #c9638e;
+  /* padding: 30px; */
+  font-size: 50px;
+  font-weight: 300;
+}
+.map_here {
+  padding: 50px 0px;
+}
+.contact_form button {
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #ebecf2;
+  color: black;
+  transition: 0.8s;
+  padding: 10px 13px;
+}
+.contact_form button:hover {
+  background-color: palevioletred;
+  color: white;
+  border-color: palevioletred;
+}
+.hold_form {
+  display: flex;
+  /* gap: 140px; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.form1 input {
+  border: 2px solid #aaa;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  background: transparent;
+  transition: 0.3s;
+}
+.form1 input:focus {
+  border-color: #c9638e;
+}
+
+.form2 textarea {
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: 2px solid white;
+  background: transparent;
+  margin: 8px 0;
+  width: 100%;
+  outline: none;
+  padding: 2px 10px;
+}
+.form2 textarea:focus {
+  border-color: #c9638e;
+}
+.map {
+  width: 100%;
+}
+.map p {
+  color: #878ab1;
+  font-size: 12px;
+}
+/* .row p {
+  color: #878ab1;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0;
+  padding: 5px 5px;
+} */
+.icon_map {
+  display: flex;
+  gap: 15px;
+}
+.icon_map i {
+  color: #c9638e;
+  font-size: 20px;
+}
+.icon_map p a {
+  color: #878ab1;
+}
+
+/* --------------Fitness-page-------------- */
+.Fitness_page {
+  background-image: url(../images/Fitness_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-bottom: 20px; */
+}
+.Fitness_page h2 {
+  padding-top: 220px;
+  padding-bottom: 52px;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+.Fitness_guide {
+  padding-top: 40px;
+}
+.Fitness_guide h4 {
+  text-align: center;
+  font-size: 50px;
+  color: #c9638e;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+.Fitness_guide h2 {
+  padding-bottom: 30px;
+  font-weight: 100;
+}
+.perform_exercise h3 {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  color: #c9638e;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.perform_exercise p {
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: black;
+  font-weight: 300;
+  /* line-height: 30px; */
+  margin: 0px;
+}
+
+/* --------Registration----------------- */
+
+.Registration_page {
+  background-image: url(../images/Registration.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Registration_page h2 {
+  padding-top: 220px;
+  padding-bottom: 52px;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+.Registeration_sec1 h4 {
+  color: #c9638e;
+}
+.Register_btn button {
+  font-size: 15px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #ebecf2;
+  color: black;
+  transition: 0.8s;
+  padding: 10px 13px;
+  margin-bottom: 20px;
+}
+.Register_btn button:hover {
+  background-color: palevioletred;
+  color: white;
+  border-color: palevioletred;
+}
+/* form.needs-validation label {
+  color: red;
+  font-weight: 300;
+} */
+
+/* element.style {
+} */
+/* label.form-label span {
+    color: red !important;
+    font-weight: 300; */
+
+/* --------Deit plan----------------- */
+
+.Deit_hadding h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #c9638e;
+  padding-top: 30px;
+}
+.deit_image {
+  padding-top: 40px;
+}
+
+.deit_info p {
+  padding-top: 20px;
+  color: #878ab1;
+}
+.deit_info ol li {
+  color: #878ab1;
+}
+.deit_info button {
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #ebecf2;
+  color: black;
+  transition: 0.8s;
+  padding: 10px 20px;
+}
+.deit_info button:hover {
+  background-color: palevioletred;
+  color: white;
+  border-color: palevioletred;
+}
+.Deit_hadding_2 h2 {
+  padding-top: 35px;
+  font-size: 40px;
+  font-weight: 300;
+  color: #c9638e;
+}
+.Deit_hadding_2_p {
+  padding-top: 20px;
+  color: #878ab1;
+}
+.Deit_hadding_2 h3 {
+  color: #c9638e;
+  font-size: 35px;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+.Deit_hadding_post_food {
+  padding-top: 35Fpx;
+}
+.Deit_hadding_post_food h3 {
+  color: #c9638e;
+  font-size: 35px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.btn-whatsapp-pulse {
+  background: #25d366;
+  color: white;
+  position: fixed;
+  bottom: 45px;
+  right: 20px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  height: 0;
+  padding: 17px;
+  text-decoration: none;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  80% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+.btn-whatsapp-pulse-border {
+  bottom: 120px;
+  right: 20px;
+  animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  padding: 25px;
+  border: 5px solid #25d366;
+  opacity: 0.75;
+  animation-name: pulse-border;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    padding: 25px;
+    opacity: 0.75;
+  }
+  75% {
+    padding: 50px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.btn-whatsapp-pulse img {
+  max-width: 40px;
+}

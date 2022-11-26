@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="/assests/css/Form.css"> -->
+        <link rel="stylesheet" href="./assests/css/mycss.css">
+        <link rel="stylesheet" href="./assests/css/Responsive.css">
+        <title>Document</title>
+    </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light border border-dark ">
+
+
+
+            <!-- <div class="whatsapp_float">
+                <a href="https://wa.me/918430249567"> <img src="/images/WhatsApp_image.png" alt="img-fluid"
+                       width="100px" class="whatsapp_float_btn"></a>
+            </div> -->
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="assests/images/website_logo.png" alt=""
+                        class="img-fluid logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fitness.html">Fitness</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Registration.html">Registration</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Diet.html">Deit Plan</a>
+                        </li>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="Registration_page">
+        <div class="container">
+            <h2>Register Now</h2>
+        </div>
+    </section>
+    <section>
+        <div class=" container">
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-6 col-lg-6">
+                    <h4 class="mb-3">Billing address</h4>
+                    <div class="Register_btn">
+                        <form class="needs-validation" id="FormData" novalidate="" onsubmit="handleOnSubmit()">
+                            <div class=" row g-3">
+                                <div class="col-sm-6">
+                                    <label for="firstName" class="form-label">First name :</label>
+                                    <input type="text" class="form-control" id="firstName" onchange="collectData()"
+                                        placeholder="" value="" required="">
+                                    <div class="invalid-feedback">
+                                        Valid first name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                        required="">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Username</label>
+                                    <div class="input-group has-validation">
+                                        <!-- <span class="input-group-text">@</span> -->
+                                        <input type="text" class="form-control" id="username" placeholder="Username"
+                                            required="">
+                                        <div class="invalid-feedback">
+                                            Your username is required.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="email" class="form-label">Email <span
+                                            class="text-muted">(Optional)</span></label>
+                                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email address for shipping updates.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address" class="form-label">Address</label>
+                                    <input type="text" class="form-control" id="address" placeholder="1234 Main St"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please enter your shipping address.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address2" class="form-label">Address 2 <span
+                                            class="text-muted">(Optional)</span></label>
+                                    <input type="text" class="form-control" id="address2"
+                                        placeholder="Apartment or suite">
+                                </div>
+
+                                <div class="col-md-5">
+                                    <label for="country" class="form-label">Country</label>
+                                    <select class="form-select" id="country" required="">
+                                        <option value="">Choose...</option>
+                                        <option>India</option>
+                                        <option>India</option>
+                                        <option>India</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid country.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="state" class="form-label">State</label>
+                                    <select class="form-select" id="state" required="">
+                                        <option value="">Choose...</option>
+                                        <option>Uttar Pradesh</option>
+                                        <option>New Delhi</option>
+                                        <option>Noida</option>
+                                        <option>Rampur</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="zip" class="form-label">Zip</label>
+                                    <input type="text" class="form-control" id="zip" placeholder="" required="">
+                                    <div class="invalid-feedback">
+                                        Zip code required.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <h4 class="mb-3">Payment</h4>
+
+                            <div class="my-3">
+                                <div class="form-check">
+                                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input"
+                                        checked="" required="">
+                                    <label class="form-check-label" for="credit">Credit card</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input"
+                                        required="">
+                                    <label class="form-check-label" for="debit">Debit card</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input"
+                                        required="">
+                                    <label class="form-check-label" for="paypal">PayPal</label>
+                                </div>
+                            </div>
+
+                            <div class="row gy-3">
+                                <div class="col-md-6">
+                                    <label for="cc-name" class="form-label">Name on card</label>
+                                    <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                                    <small class="text-muted">Full name as displayed on card</small>
+                                    <div class="invalid-feedback">
+                                        Name on card is required
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="cc-number" class="form-label">Credit card number</label>
+                                    <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                                    <div class="invalid-feedback">
+                                        Credit card number is required
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-expiration" class="form-label">Expiration</label>
+                                    <input type="text" class="form-control" id="cc-expiration" placeholder=""
+                                        required="">
+                                    <div class="invalid-feedback">
+                                        Expiration date required
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-cvv" class="form-label">CVV</label>
+                                    <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                                    <div class="invalid-feedback">
+                                        Security code required
+                                    </div>
+                                </div>
+                                <hr class="my-4">
+                                <button type="submit">Submit</button>
+                            </div>
+
+
+                            <!-- <button>Submit</button> -->
+                        </form>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="foters">
+        <div class="container">
+            <div class="fit">
+                <img src="assests/images/footer.png" alt="">
+                <h1>GYM FIT</h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fitness.html">Fitness</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact-Us.html">Contact-Us</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                    <li><a href="Diet.html">Deit Plan</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="foot">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i> </a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <p>Sector-15, New Bans Village,Noida(Uttar Pradesh),201301</p>
+                    <p><a href="tel:8430249567,6398875093">8430249567,6398875093</a></p>
+                </div>
+            </div>
+
+        </footer>
+
+    </section>
+    <section class="copy_right">
+        <div class="container">
+            <p>All Rights Reserved 2022 © 2022 !! Design by Shahzeb khan </p>
+        </div>
+    </section>
+    <a href="https://wa.me/918430249567" class="btn-whatsapp-pulse" target="_blank">
+        <!-- <i class="fab fa-whatsapp"></i> -->
+        <img src="assests/images/New Project.svg" alt="" class="img-fluid">
+    </a>
+    <!-- MODAL  -->
+
+    <!-- MODAL CLOSE -->
+
+</body>
+
+</html>
